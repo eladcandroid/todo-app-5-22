@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+
+img {
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.random-num-container .random-num {
+  border: 1px solid red;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+body.dark button {
+  background-color: black;
+  color: white;
+}
+
+.todo-list {
+  list-style: none;
+  text-align: left;
+}
+.todo-list li button {
+  margin-left: 10px;
+}
